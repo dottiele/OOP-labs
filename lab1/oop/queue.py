@@ -1,4 +1,4 @@
-
+from typing import Generic, TypeVar, List
 T = TypeVar('T')
 
 class Queue(Generic[T]):
